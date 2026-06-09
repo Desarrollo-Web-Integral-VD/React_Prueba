@@ -9,11 +9,6 @@ jobs:
     steps:
       - name: Dí Hola
         run: echo "Hello World Diego Ruiz"
-
-  Tarea2:
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Fecha Sistema
         run: echo "Bienvenidos a mi primer desafio" echo "La fecha de hoy es:" date
 
