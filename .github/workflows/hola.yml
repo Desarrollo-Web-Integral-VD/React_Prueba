@@ -10,6 +10,9 @@ jobs:
       - name: Dí Hola
         run: echo "Hello World Diego Ruiz"
       - name: Fecha Sistema
-        run: echo "Bienvenidos a mi primer desafio" echo "La fecha de hoy es:" date
+        run: |
+          echo "Bienvenidos a mi primer desafio" 
+          echo "La fecha de hoy es:" 
+          date
 
         
