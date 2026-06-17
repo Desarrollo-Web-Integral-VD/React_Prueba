@@ -18,6 +18,7 @@ function App() {
       {/* ¡Aquí agregas tu nombre para que se vea en el deploy! */}
       <h1>Juan Diego Ruiz Rivera</h1>
       <h2>Mi primer despliegue en Vercel</h2>
+      <h2>Muestra del despliegue</h2>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
